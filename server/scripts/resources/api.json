@@ -1,0 +1,1533 @@
+{
+_class: "hudson.model.Hudson",
+assignedLabels: [
+{ },
+{ }
+],
+mode: "EXCLUSIVE",
+nodeDescription: "the master Jenkins node",
+nodeName: "",
+numExecutors: 2,
+description: null,
+jobs: [
+{
+_class: "hudson.model.FreeStyleProject",
+name: "2-mvifp-c12276-2.7.24.3.x-CDImage",
+url: "https://tcd.coconet.de/job/2-mvifp-c12276-2.7.24.3.x-CDImage/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "2-mvifp-c12276-2.7.24.x-CDImage",
+url: "https://tcd.coconet.de/job/2-mvifp-c12276-2.7.24.x-CDImage/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "2-mvifp-c12276-2.7.25.x-CDImage",
+url: "https://tcd.coconet.de/job/2-mvifp-c12276-2.7.25.x-CDImage/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "2-mvifp-c12276-2.7.26.x-CDImage",
+url: "https://tcd.coconet.de/job/2-mvifp-c12276-2.7.26.x-CDImage/",
+color: "red"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "build_time_statistics",
+url: "https://tcd.coconet.de/job/build_time_statistics/",
+color: "aborted"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "c00000_demo_deployments_monitoring",
+url: "https://tcd.coconet.de/job/c00000_demo_deployments_monitoring/",
+color: "disabled"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "c11102_demo_deployments_monitoring",
+url: "https://tcd.coconet.de/job/c11102_demo_deployments_monitoring/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "check-rss-neutral-works-fine",
+url: "https://tcd.coconet.de/job/check-rss-neutral-works-fine/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "CM-11802_c10888_was855-12_oracle11-s1_demo_CM-11802",
+url: "https://tcd.coconet.de/job/CM-11802_c10888_was855-12_oracle11-s1_demo_CM-11802/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "CM-11802_c11102_wls12-2-1-3_oracle11-s1_demo_CM-11802",
+url: "https://tcd.coconet.de/job/CM-11802_c11102_wls12-2-1-3_oracle11-s1_demo_CM-11802/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "CreateDatabaseDump_groovy-shell_script",
+url: "https://tcd.coconet.de/job/CreateDatabaseDump_groovy-shell_script/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "database_plugin_test_karolm",
+url: "https://tcd.coconet.de/job/database_plugin_test_karolm/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "delete-dump",
+url: "https://tcd.coconet.de/job/delete-dump/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "DeleteDeployment_groovy_script",
+url: "https://tcd.coconet.de/job/DeleteDeployment_groovy_script/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_dmz_c10668_1",
+url: "https://tcd.coconet.de/job/deployment_dmz_c10668_1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_dmz_c10668_perftest",
+url: "https://tcd.coconet.de/job/deployment_dmz_c10668_perftest/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_dmz_c12523_1",
+url: "https://tcd.coconet.de/job/deployment_dmz_c12523_1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_dmz_rbch1",
+url: "https://tcd.coconet.de/job/deployment_dmz_rbch1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_dmz_sparebank_1",
+url: "https://tcd.coconet.de/job/deployment_dmz_sparebank_1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_dmz_test_1",
+url: "https://tcd.coconet.de/job/deployment_dmz_test_1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "deployment_fip_ifp_ifp_elk_dmz_temp",
+url: "https://tcd.coconet.de/job/deployment_fip_ifp_ifp_elk_dmz_temp/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "dmz-create-deployment-test",
+url: "https://tcd.coconet.de/job/dmz-create-deployment-test/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "dmz-deploy-deployment-test",
+url: "https://tcd.coconet.de/job/dmz-deploy-deployment-test/",
+color: "red"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "DMZ_ifp",
+url: "https://tcd.coconet.de/job/DMZ_ifp/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "dump-and-store-database-schema",
+url: "https://tcd.coconet.de/job/dump-and-store-database-schema/",
+color: "red"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "dump-dmz-database",
+url: "https://tcd.coconet.de/job/dump-dmz-database/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "external_demo_deployments_monitoring",
+url: "https://tcd.coconet.de/job/external_demo_deployments_monitoring/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fetch-and-import-dump",
+url: "https://tcd.coconet.de/job/fetch-and-import-dump/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-check-delivery-package",
+url: "https://tcd.coconet.de/job/fip-check-delivery-package/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-CM-11131-external-sales_neutral_was_oracle11g-srv01_sales_external",
+url: "https://tcd.coconet.de/job/fip-CM-11131-external-sales_neutral_was_oracle11g-srv01_sales_external/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-CM-11131-external-sales_neutral_was_oracle11g-srv02_sales_external",
+url: "https://tcd.coconet.de/job/fip-CM-11131-external-sales_neutral_was_oracle11g-srv02_sales_external/",
+color: "notbuilt"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-CM-11131-external-sales_neutral_was_uc-oracle01_sales_internal_tau",
+url: "https://tcd.coconet.de/job/fip-CM-11131-external-sales_neutral_was_uc-oracle01_sales_internal_tau/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-fdc_delivery",
+url: "https://tcd.coconet.de/job/fip-fdc_delivery/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_garanti_standalone_sql2012srv05_demo_CM-13256_delta",
+url: "https://tcd.coconet.de/job/fip-master_garanti_standalone_sql2012srv05_demo_CM-13256_delta/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_lbbw_was_oracle_demo_gamma",
+url: "https://tcd.coconet.de/job/fip-master_lbbw_was_oracle_demo_gamma/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_neutral_was_oracle_demo_iota",
+url: "https://tcd.coconet.de/job/fip-master_neutral_was_oracle_demo_iota/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_neutral_was_oracle_demo_zeta",
+url: "https://tcd.coconet.de/job/fip-master_neutral_was_oracle_demo_zeta/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_unicredit_was_oracle11g-srv02_demo_xi",
+url: "https://tcd.coconet.de/job/fip-master_unicredit_was_oracle11g-srv02_demo_xi/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_unicredit_was_oracle_demo_eta",
+url: "https://tcd.coconet.de/job/fip-master_unicredit_was_oracle_demo_eta/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-master_unicredit_was_oracle_demo_rho",
+url: "https://tcd.coconet.de/job/fip-master_unicredit_was_oracle_demo_rho/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.23.x_garanti_standalone_sql2012srv05_demo_CM-12429_theta",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.23.x_garanti_standalone_sql2012srv05_demo_CM-12429_theta/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.24.x_lbbw_tomcat_oracle_demo_epsilon",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.24.x_lbbw_tomcat_oracle_demo_epsilon/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.26.x_unicredit_was_oracle_demo_alpha",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.26.x_unicredit_was_oracle_demo_alpha/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.29.x_neutral_was_oracle_demo_kappa",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.29.x_neutral_was_oracle_demo_kappa/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.29.x_unicredit_was_oracle_demo_pi",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.29.x_unicredit_was_oracle_demo_pi/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.30.x_lbbw_tomcat_oracle_demo_beta",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.30.x_lbbw_tomcat_oracle_demo_beta/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-2.0.31.x_unicredit_was_oracle_demo_lambda",
+url: "https://tcd.coconet.de/job/fip-mvfip-2.0.31.x_unicredit_was_oracle_demo_lambda/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-mvfip-master-saml_wso2_neutral_was_oracle_demo_mu",
+url: "https://tcd.coconet.de/job/fip-mvfip-master-saml_wso2_neutral_was_oracle_demo_mu/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip-only-mvfip-2.0.15.x_isabel_was_oracle_demo_CM-11677",
+url: "https://tcd.coconet.de/job/fip-only-mvfip-2.0.15.x_isabel_was_oracle_demo_CM-11677/",
+color: "disabled"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "fip_demo_deployments_monitoring",
+url: "https://tcd.coconet.de/job/fip_demo_deployments_monitoring/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip_tomcat_h2_standalone-windows_1",
+url: "https://tcd.coconet.de/job/fip_tomcat_h2_standalone-windows_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "fip_tomcat_h2_standalone-windows_MVAP-12992",
+url: "https://tcd.coconet.de/job/fip_tomcat_h2_standalone-windows_MVAP-12992/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "GatherDatabaseHealth_bash_script",
+url: "https://tcd.coconet.de/job/GatherDatabaseHealth_bash_script/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "GatherJenkinsHealthData_groovy_script",
+url: "https://tcd.coconet.de/job/GatherJenkinsHealthData_groovy_script/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "GenerateDeploymentFailuresReport_groovy_script",
+url: "https://tcd.coconet.de/job/GenerateDeploymentFailuresReport_groovy_script/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "grep_build_configs",
+url: "https://tcd.coconet.de/job/grep_build_configs/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_fip_neutral_master_jdk-oracle-1.8.0.60-iaik_jakubz_tmp",
+url: "https://tcd.coconet.de/job/image_fip_neutral_master_jdk-oracle-1.8.0.60-iaik_jakubz_tmp/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_fip_neutral_master_jdk-oracle-1.8.0.60-iaik_sales1",
+url: "https://tcd.coconet.de/job/image_fip_neutral_master_jdk-oracle-1.8.0.60-iaik_sales1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_fip_sparebank_MVAP-13244-dev-sparebank-poc_jdk-oracle-1.8.0.60-iaik_sparebank-poc-1",
+url: "https://tcd.coconet.de/job/image_fip_sparebank_MVAP-13244-dev-sparebank-poc_jdk-oracle-1.8.0.60-iaik_sparebank-poc-1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_fip_sparev-sparebank-poc_standalone_sparebank-poc-1_test",
+url: "https://tcd.coconet.de/job/image_fip_sparev-sparebank-poc_standalone_sparebank-poc-1_test/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c00000_master_wls12120_jdk-oracle-1.7.0.75-iaik_jakubz_tmp",
+url: "https://tcd.coconet.de/job/image_ifp_c00000_master_wls12120_jdk-oracle-1.7.0.75-iaik_jakubz_tmp/",
+color: "red"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c00000_master_wls12120_jdk-oracle-1.7.0.75-iaik_sales",
+url: "https://tcd.coconet.de/job/image_ifp_c00000_master_wls12120_jdk-oracle-1.7.0.75-iaik_sales/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c00000_RD-prototypes-b_wildfly1200final_jdk-oracle-1.8.0.111-iaik_sales",
+url: "https://tcd.coconet.de/job/image_ifp_c00000_RD-prototypes-b_wildfly1200final_jdk-oracle-1.8.0.111-iaik_sales/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c10668_3.4.16.0_jboss711_jdk-oracle-1.7.0.72-iaik_dmz1",
+url: "https://tcd.coconet.de/job/image_ifp_c10668_3.4.16.0_jboss711_jdk-oracle-1.7.0.72-iaik_dmz1/",
+color: "notbuilt"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c10668_3.4.37.x_jboss711_jdk-oracle-1.7.0.72-iaik_dmz1",
+url: "https://tcd.coconet.de/job/image_ifp_c10668_3.4.37.x_jboss711_jdk-oracle-1.7.0.72-iaik_dmz1/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c12523_3.4.28.x_was85512_jdk-ibm-1.8.0.45-iaik_mqfte8002_dmz1",
+url: "https://tcd.coconet.de/job/image_ifp_c12523_3.4.28.x_was85512_jdk-ibm-1.8.0.45-iaik_mqfte8002_dmz1/",
+color: "notbuilt"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "image_ifp_c12562_3.4.21.x_jboss711_jdk-oracle-1.7.0.72-iaik_dmz1",
+url: "https://tcd.coconet.de/job/image_ifp_c12562_3.4.21.x_jboss711_jdk-oracle-1.7.0.72-iaik_dmz1/",
+color: "notbuilt"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "images_cd-base",
+url: "https://tcd.coconet.de/job/images_cd-base/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "ImportDatabaseDump_groovy-script",
+url: "https://tcd.coconet.de/job/ImportDatabaseDump_groovy-script/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "ing-selenium",
+url: "https://tcd.coconet.de/job/ing-selenium/",
+color: "blue_anime"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "jakubz_pipeline_test",
+url: "https://tcd.coconet.de/job/jakubz_pipeline_test/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "jobs_not_configured_in_jjb_mixed_groovy_script",
+url: "https://tcd.coconet.de/job/jobs_not_configured_in_jjb_mixed_groovy_script/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "long-running-builds-report2",
+url: "https://tcd.coconet.de/job/long-running-builds-report2/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "MapBranchToClientList_groovy_script",
+url: "https://tcd.coconet.de/job/MapBranchToClientList_groovy_script/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "master_tcd_deployments_monitoring",
+url: "https://tcd.coconet.de/job/master_tcd_deployments_monitoring/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "meh_test_2",
+url: "https://tcd.coconet.de/job/meh_test_2/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.2.27.x_c12189_was855-5_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.2.27.x_c12189_was855-5_oracle12-s1_demo_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.14.x_c10189_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.14.x_c10189_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.18.x_c12235_fat-ini_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-3.3.18.x_c12235_fat-ini_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.18.x_c12235_fat_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-3.3.18.x_c12235_fat_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.25.x_c12443_wls10-3-6_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.25.x_c12443_wls10-3-6_oracle11-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.37.1_c11947_jboss7-eap_oracle11-s1_demo_CM-12185",
+url: "https://tcd.coconet.de/job/mv-3.3.37.1_c11947_jboss7-eap_oracle11-s1_demo_CM-12185/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.51.x_c11819_jboss7-1-1_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.51.x_c11819_jboss7-1-1_oracle11-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.55.x_c20001_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.55.x_c20001_jboss7-1-1_oracle11-s1_demo_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.62.x_c12541_jboss7-1-1_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.62.x_c12541_jboss7-1-1_oracle12-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.69.x_c10316_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.69.x_c10316_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.71.0_c11899_wildfly10_mssql2008-s2_demo_CM-12627",
+url: "https://tcd.coconet.de/job/mv-3.3.71.0_c11899_wildfly10_mssql2008-s2_demo_CM-12627/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.71.x_c11899_jboss7-1-1_mssql2008-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.71.x_c11899_jboss7-1-1_mssql2008-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.3.80.x_c12499_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.3.80.x_c12499_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.12.0_c10888_was855-12_oracle11-s1_demo_base_mig_CM-13343",
+url: "https://tcd.coconet.de/job/mv-3.4.12.0_c10888_was855-12_oracle11-s1_demo_base_mig_CM-13343/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.12.x_c10888_was855-12_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.12.x_c10888_was855-12_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.13.1_c12311_wildfly10_mssql2008-s2_demo_base_mig_CM-12974",
+url: "https://tcd.coconet.de/job/mv-3.4.13.1_c12311_wildfly10_mssql2008-s2_demo_base_mig_CM-12974/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.13.x_c12311_was855-12_mssql2008-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.13.x_c12311_was855-12_mssql2008-s1_demo_1/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.13.x_c12311_wildfly10_mssql2008-s2_demo_CM-12974",
+url: "https://tcd.coconet.de/job/mv-3.4.13.x_c12311_wildfly10_mssql2008-s2_demo_CM-12974/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.14.1_c11624_was855-12_oracle11-s1_demo_base_mig_CM-13403",
+url: "https://tcd.coconet.de/job/mv-3.4.14.1_c11624_was855-12_oracle11-s1_demo_base_mig_CM-13403/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.14.x_c11624_was855-12_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.14.x_c11624_was855-12_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.14.x_c11624_was855-12_oracle11-s1_demo_beta",
+url: "https://tcd.coconet.de/job/mv-3.4.14.x_c11624_was855-12_oracle11-s1_demo_beta/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.14.x_c11624_was855-12_oracle11-s1_demo_epsilon",
+url: "https://tcd.coconet.de/job/mv-3.4.14.x_c11624_was855-12_oracle11-s1_demo_epsilon/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.15.x_c12523_was855-12_oracle12-s1_CEM0_1",
+url: "https://tcd.coconet.de/job/mv-3.4.15.x_c12523_was855-12_oracle12-s1_CEM0_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.15.x_c12523_was855-12_oracle12-s1_demo_MD-8876",
+url: "https://tcd.coconet.de/job/mv-3.4.15.x_c12523_was855-12_oracle12-s1_demo_MD-8876/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.16.x_c10668_jboss7-eap_oracle12-s1_initial_CM-12233",
+url: "https://tcd.coconet.de/job/mv-3.4.16.x_c10668_jboss7-eap_oracle12-s1_initial_CM-12233/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.17.x_c11102_wls12-2-1-3_uc-oracle01_demo_CM-11643-TWIX-ONE",
+url: "https://tcd.coconet.de/job/mv-3.4.17.x_c11102_wls12-2-1-3_uc-oracle01_demo_CM-11643-TWIX-ONE/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.17.x_c11102_wls12-2-1-3_uc-oracle01_demo_CM-11643-TWIX-TWO",
+url: "https://tcd.coconet.de/job/mv-3.4.17.x_c11102_wls12-2-1-3_uc-oracle01_demo_CM-11643-TWIX-TWO/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.17.x_c11102_wls12-2-1-3_uc-oracle01_QSU_fip_eta",
+url: "https://tcd.coconet.de/job/mv-3.4.17.x_c11102_wls12-2-1-3_uc-oracle01_QSU_fip_eta/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.18.x_c10656_was855-5_oracle12-s1_demo_CM-12771",
+url: "https://tcd.coconet.de/job/mv-3.4.18.x_c10656_was855-5_oracle12-s1_demo_CM-12771/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.20.x_c11016_wildfly10_mssql2014-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.20.x_c11016_wildfly10_mssql2014-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.22.x_c12559_wildfly12_mssql2012-s1_demo_CM-12429_theta",
+url: "https://tcd.coconet.de/job/mv-3.4.22.x_c12559_wildfly12_mssql2012-s1_demo_CM-12429_theta/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.23.x_c10052_was855-12_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.23.x_c10052_was855-12_oracle12-s1_demo_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.25.1_c12506_jboss7-1-1_oracle11-s1_demo_base_mig_CM-13283",
+url: "https://tcd.coconet.de/job/mv-3.4.25.1_c12506_jboss7-1-1_oracle11-s1_demo_base_mig_CM-13283/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.25.x_c12506_jboss7-1-1_oracle11-s1_demo_CM-13051",
+url: "https://tcd.coconet.de/job/mv-3.4.25.x_c12506_jboss7-1-1_oracle11-s1_demo_CM-13051/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.25.x_c12506_jboss7-1-1_oracle11-s1_demo_MD-8815",
+url: "https://tcd.coconet.de/job/mv-3.4.25.x_c12506_jboss7-1-1_oracle11-s1_demo_MD-8815/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.26.x_c12562_jboss7-eap_oracle12-s1_customerdump_CM-12801",
+url: "https://tcd.coconet.de/job/mv-3.4.26.x_c12562_jboss7-eap_oracle12-s1_customerdump_CM-12801/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.27.x_c12541_jboss7-1-1_oracle12-s1_demo_CM-12903",
+url: "https://tcd.coconet.de/job/mv-3.4.27.x_c12541_jboss7-1-1_oracle12-s1_demo_CM-12903/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.28.x_c12523_was855-12_oracle12-s1_CEM0_CM-12937_1",
+url: "https://tcd.coconet.de/job/mv-3.4.28.x_c12523_was855-12_oracle12-s1_CEM0_CM-12937_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.28.x_c12523_was855-12_oracle12-s1_CEM0_CM-12937_2",
+url: "https://tcd.coconet.de/job/mv-3.4.28.x_c12523_was855-12_oracle12-s1_CEM0_CM-12937_2/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.28.x_c12523_was855-5_oracle12-s1_CEM0_CM-12937_1",
+url: "https://tcd.coconet.de/job/mv-3.4.28.x_c12523_was855-5_oracle12-s1_CEM0_CM-12937_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.29.x_c10831_jboss7-1-1_oracle11-s1_demo_CM-12755",
+url: "https://tcd.coconet.de/job/mv-3.4.29.x_c10831_jboss7-1-1_oracle11-s1_demo_CM-12755/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.30.x_c11102_wls12-2-1-3_oracle11-s1_demo_fip_pi",
+url: "https://tcd.coconet.de/job/mv-3.4.30.x_c11102_wls12-2-1-3_oracle11-s1_demo_fip_pi/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.31.x_c12484_jboss7-1-1_mssql2012-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.31.x_c12484_jboss7-1-1_mssql2012-s1_demo_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.31.x_c12484_jboss7-1-1_mssql2012-s1_demo_mig_CM-13023",
+url: "https://tcd.coconet.de/job/mv-3.4.31.x_c12484_jboss7-1-1_mssql2012-s1_demo_mig_CM-13023/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.32.x_c10656_was855-5_oracle12-s1_demo_CM-13297",
+url: "https://tcd.coconet.de/job/mv-3.4.32.x_c10656_was855-5_oracle12-s1_demo_CM-13297/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.32.x_c10656_was855-5_oracle12-s1_demo_mig_CM-13297",
+url: "https://tcd.coconet.de/job/mv-3.4.32.x_c10656_was855-5_oracle12-s1_demo_mig_CM-13297/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.33.x_c12562_jboss7-eap_oracle12-s1_demo_CM-13303-NODE1",
+url: "https://tcd.coconet.de/job/mv-3.4.33.x_c12562_jboss7-eap_oracle12-s1_demo_CM-13303-NODE1/",
+color: "blue_anime"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.33.x_c12562_jboss7-eap_oracle12-s1_demo_CM-13303-NODE2",
+url: "https://tcd.coconet.de/job/mv-3.4.33.x_c12562_jboss7-eap_oracle12-s1_demo_CM-13303-NODE2/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.34.x_c12350_jboss7-1-1_mssql2008-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.34.x_c12350_jboss7-1-1_mssql2008-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.34.x_c12350_jboss7-1-1_mssql2008-s2_demo_mig_CM-13275",
+url: "https://tcd.coconet.de/job/mv-3.4.34.x_c12350_jboss7-1-1_mssql2008-s2_demo_mig_CM-13275/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.35.x_c12551_wildfly10_oracle12-s1_demo_CM-13220",
+url: "https://tcd.coconet.de/job/mv-3.4.35.x_c12551_wildfly10_oracle12-s1_demo_CM-13220/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.35.x_c12551_wildfly10_oracle12-s1_demo_mig_CM-13220",
+url: "https://tcd.coconet.de/job/mv-3.4.35.x_c12551_wildfly10_oracle12-s1_demo_mig_CM-13220/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.37.x_c10668_jboss7-eap_oracle12-s1_demo_CM-13293",
+url: "https://tcd.coconet.de/job/mv-3.4.37.x_c10668_jboss7-eap_oracle12-s1_demo_CM-13293/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.38.x_c11102_wls12-2-1-3_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.38.x_c11102_wls12-2-1-3_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.38.x_c11102_wls12-2-1-3_oracle11-s1_demo_fip_lambda",
+url: "https://tcd.coconet.de/job/mv-3.4.38.x_c11102_wls12-2-1-3_oracle11-s1_demo_fip_lambda/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.38.x_c11102_wls12-2-1-3_oracle11-s1_QSU_fip_alpha",
+url: "https://tcd.coconet.de/job/mv-3.4.38.x_c11102_wls12-2-1-3_oracle11-s1_QSU_fip_alpha/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.4.x_c10727_wls10-3-6_mssql2008-s2_demo_2",
+url: "https://tcd.coconet.de/job/mv-3.4.4.x_c10727_wls10-3-6_mssql2008-s2_demo_2/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-3.4.9.x_c12116_jboss7-1-1_mssql2012-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-3.4.9.x_c12116_jboss7-1-1_mssql2012-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-demo_database-maintenance_deployment",
+url: "https://tcd.coconet.de/job/mv-demo_database-maintenance_deployment/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-demo_database-maintenance_deployment2",
+url: "https://tcd.coconet.de/job/mv-demo_database-maintenance_deployment2/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-dev-veu_c10656_was855-5_oracle12-s1_demo_CM-13216",
+url: "https://tcd.coconet.de/job/mv-dev-veu_c10656_was855-5_oracle12-s1_demo_CM-13216/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-GUI-REWORK_c00000_jboss7-1-1_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-GUI-REWORK_c00000_jboss7-1-1_oracle11-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-INGIBP-DEV-BIS_c12235_fat_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-INGIBP-DEV-BIS_c12235_fat_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-INGIBP-DEV_c12235_fat_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-INGIBP-DEV_c12235_fat_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_att_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-master_c00000_att_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_was7_oracle_demo_ING_VPN",
+url: "https://tcd.coconet.de/job/mv-master_c00000_was7_oracle_demo_ING_VPN/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_was855-5_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c00000_was855-5_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-1-2_oracle11-s1_demo_fip_iota",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-1-2_oracle11-s1_demo_fip_iota/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-1-2_oracle11-s1_initial_1",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-1-2_oracle11-s1_initial_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-1-2_oracle11-s1_sales_external_CM-8345-2",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-1-2_oracle11-s1_sales_external_CM-8345-2/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-1-2_oracle11-s2_demo_fip_mu",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-1-2_oracle11-s2_demo_fip_mu/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-1-2_oracle11-s2_sales_external_tau",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-1-2_oracle11-s2_sales_external_tau/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-1-2_uc-oracle01_demo_fip_kappa",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-1-2_uc-oracle01_demo_fip_kappa/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-2-1_mssql2012-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-2-1_mssql2012-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c00000_wls12-2-1_oracle11-s1_demo_fip_zeta",
+url: "https://tcd.coconet.de/job/mv-master_c00000_wls12-2-1_oracle11-s1_demo_fip_zeta/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10052_was855-12_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10052_was855-12_oracle12-s1_demo_1/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10189_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10189_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10316_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10316_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10656_was855-5_oracle12-s1_demo_3",
+url: "https://tcd.coconet.de/job/mv-master_c10656_was855-5_oracle12-s1_demo_3/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10668_jboss7-eap_oracle12-s1_demo_CM-12134",
+url: "https://tcd.coconet.de/job/mv-master_c10668_jboss7-eap_oracle12-s1_demo_CM-12134/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10723_wildfly10_mssql2008-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10723_wildfly10_mssql2008-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10727_was855-11_mssql2008-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10727_was855-11_mssql2008-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10831_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10831_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c10888_was855-12_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c10888_was855-12_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11016_jboss7-1-1_mssql2014-s1_demo_CM-11344",
+url: "https://tcd.coconet.de/job/mv-master_c11016_jboss7-1-1_mssql2014-s1_demo_CM-11344/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11102_wls12-2-1-3_oracle11-s1_IT_1",
+url: "https://tcd.coconet.de/job/mv-master_c11102_wls12-2-1-3_oracle11-s1_IT_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11102_wls12-2-1-3_oracle11-s2_demo_fip_rho",
+url: "https://tcd.coconet.de/job/mv-master_c11102_wls12-2-1-3_oracle11-s2_demo_fip_rho/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11102_wls12-2-1-3_uc-oracle01_demo_external_CM-11660-xi",
+url: "https://tcd.coconet.de/job/mv-master_c11102_wls12-2-1-3_uc-oracle01_demo_external_CM-11660-xi/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11102_wls12-2-1-3_uc-oracle01_QSU_1",
+url: "https://tcd.coconet.de/job/mv-master_c11102_wls12-2-1-3_uc-oracle01_QSU_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11624_was855-12_oracle11-s1_demo_gamma",
+url: "https://tcd.coconet.de/job/mv-master_c11624_was855-12_oracle11-s1_demo_gamma/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11819_jboss7-1-1_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c11819_jboss7-1-1_oracle11-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11899_jboss7-1-1_mssql2008-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c11899_jboss7-1-1_mssql2008-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c11947_jboss7-1-1_oracle11-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c11947_jboss7-1-1_oracle11-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12116_jboss7-1-1_mssql2012-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12116_jboss7-1-1_mssql2012-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12235_fat-ini_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-master_c12235_fat-ini_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12235_fat_dump_maintenance",
+url: "https://tcd.coconet.de/job/mv-master_c12235_fat_dump_maintenance/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12311_wildfly13_mssql2008_demo_CM-12053",
+url: "https://tcd.coconet.de/job/mv-master_c12311_wildfly13_mssql2008_demo_CM-12053/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12311_wildfly13_mssql2008_demo_CM-12763_test",
+url: "https://tcd.coconet.de/job/mv-master_c12311_wildfly13_mssql2008_demo_CM-12763_test/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12311_wildfly13_mssql2008_demo_CM-13528_2_test",
+url: "https://tcd.coconet.de/job/mv-master_c12311_wildfly13_mssql2008_demo_CM-13528_2_test/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12350_jboss7-1-1_mssql2008-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12350_jboss7-1-1_mssql2008-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12443_wls10-3-6_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12443_wls10-3-6_oracle11-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12484_jboss7-1-1_mssql2012-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12484_jboss7-1-1_mssql2012-s1_demo_1/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12499_jboss7-1-1_oracle11-s1_initial_1",
+url: "https://tcd.coconet.de/job/mv-master_c12499_jboss7-1-1_oracle11-s1_initial_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12506_jboss7-eap_oracle12-s1_demo_CM-12379",
+url: "https://tcd.coconet.de/job/mv-master_c12506_jboss7-eap_oracle12-s1_demo_CM-12379/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12523_was855-12_oracle12-s1_CEM0_1",
+url: "https://tcd.coconet.de/job/mv-master_c12523_was855-12_oracle12-s1_CEM0_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12541_jboss7-1-1_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12541_jboss7-1-1_oracle12-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12541_jboss7-1-1_oracle12-s1_initial_1",
+url: "https://tcd.coconet.de/job/mv-master_c12541_jboss7-1-1_oracle12-s1_initial_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12551_wildfly10_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12551_wildfly10_oracle12-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12551_wildfly10_oracle12-s1_sales_1",
+url: "https://tcd.coconet.de/job/mv-master_c12551_wildfly10_oracle12-s1_sales_1/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12559_wildfly10_mssql2012-s1_demo_CM-12640",
+url: "https://tcd.coconet.de/job/mv-master_c12559_wildfly10_mssql2012-s1_demo_CM-12640/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12559_wildfly12_oracle11-s1_demo_CM-13256_delta",
+url: "https://tcd.coconet.de/job/mv-master_c12559_wildfly12_oracle11-s1_demo_CM-13256_delta/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-master_c12562_jboss7-eap_oracle12-s1_demo_1",
+url: "https://tcd.coconet.de/job/mv-master_c12562_jboss7-eap_oracle12-s1_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-neander-exclusion-mechanism_c00000_jboss7-1-1_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-neander-exclusion-mechanism_c00000_jboss7-1-1_oracle11-s2_demo_1/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-prod_c00000_jboss7-1-1_oracle11-s2_demo_1",
+url: "https://tcd.coconet.de/job/mv-prod_c00000_jboss7-1-1_oracle11-s2_demo_1/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-RD-prototypes-b_c00000_wildfly12_oracle11-s2_sales_RD_prototypes_CM-11722",
+url: "https://tcd.coconet.de/job/mv-RD-prototypes-b_c00000_wildfly12_oracle11-s2_sales_RD_prototypes_CM-11722/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-sales_database-maintenance_deployment",
+url: "https://tcd.coconet.de/job/mv-sales_database-maintenance_deployment/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv-Unicredit-Chinese_c11102_wls12-2-1-3_oracle11-s1_demo_CM-12960",
+url: "https://tcd.coconet.de/job/mv-Unicredit-Chinese_c11102_wls12-2-1-3_oracle11-s1_demo_CM-12960/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mv_deployment_template_windows",
+url: "https://tcd.coconet.de/job/mv_deployment_template_windows/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "mvpbs-2.7.2.15.x_c10097_jboss5_derby_initial",
+url: "https://tcd.coconet.de/job/mvpbs-2.7.2.15.x_c10097_jboss5_derby_initial/",
+color: "disabled"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "nodes_info_gatherer",
+url: "https://tcd.coconet.de/job/nodes_info_gatherer/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "one-click-delivery",
+url: "https://tcd.coconet.de/job/one-click-delivery/",
+color: "yellow"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "one-click-delivery-finalizer",
+url: "https://tcd.coconet.de/job/one-click-delivery-finalizer/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "one-click-delivery-old",
+url: "https://tcd.coconet.de/job/one-click-delivery-old/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "one-click-meh",
+url: "https://tcd.coconet.de/job/one-click-meh/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "pentaho-report",
+url: "https://tcd.coconet.de/job/pentaho-report/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "prepare-selenium-refresh-report",
+url: "https://tcd.coconet.de/job/prepare-selenium-refresh-report/",
+color: "disabled"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "store-dump-from-url",
+url: "https://tcd.coconet.de/job/store-dump-from-url/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "telegraf_deployments_monitoring",
+url: "https://tcd.coconet.de/job/telegraf_deployments_monitoring/",
+color: "blue"
+},
+{
+_class: "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+name: "test_jakubz_tmp",
+url: "https://tcd.coconet.de/job/test_jakubz_tmp/",
+color: "red"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "uc-oracle01_dump_import",
+url: "https://tcd.coconet.de/job/uc-oracle01_dump_import/",
+color: "notbuilt"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "update_jenkins_job_builder",
+url: "https://tcd.coconet.de/job/update_jenkins_job_builder/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "update_jenkins_job_builder_jobs",
+url: "https://tcd.coconet.de/job/update_jenkins_job_builder_jobs/",
+color: "blue"
+},
+{
+_class: "hudson.model.FreeStyleProject",
+name: "update_whitelist",
+url: "https://tcd.coconet.de/job/update_whitelist/",
+color: "blue"
+}
+],
+overallLoad: { },
+primaryView: {
+_class: "hudson.plugins.nested_view.NestedView",
+name: "customer views",
+url: "https://tcd.coconet.de/view/customer%20views/"
+},
+quietingDown: false,
+slaveAgentPort: 0,
+unlabeledLoad: {
+_class: "jenkins.model.UnlabeledLoadStatistics"
+},
+useCrumbs: false,
+useSecurity: true,
+views: [
+{
+_class: "hudson.model.AllView",
+name: "All",
+url: "https://tcd.coconet.de/view/All/"
+},
+{
+_class: "hudson.model.ListView",
+name: "All failed",
+url: "https://tcd.coconet.de/view/All%20failed/"
+},
+{
+_class: "hudson.model.ListView",
+name: "Database maintanance",
+url: "https://tcd.coconet.de/view/Database%20maintanance/"
+},
+{
+_class: "hudson.model.ListView",
+name: "Not_mv_list",
+url: "https://tcd.coconet.de/view/Not_mv_list/"
+},
+{
+_class: "hudson.plugins.sectioned_view.SectionedView",
+name: "RTT",
+url: "https://tcd.coconet.de/view/RTT/"
+},
+{
+_class: "hudson.model.ListView",
+name: "Scripts",
+url: "https://tcd.coconet.de/view/Scripts/"
+},
+{
+_class: "hudson.plugins.nested_view.NestedView",
+name: "appserver views",
+url: "https://tcd.coconet.de/view/appserver%20views/"
+},
+{
+_class: "org.jenkinsci.plugins.categorizedview.CategorizedJobsView",
+name: "branch views",
+url: "https://tcd.coconet.de/view/branch%20views/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c00000",
+url: "https://tcd.coconet.de/view/c00000/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10052",
+url: "https://tcd.coconet.de/view/c10052/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10189",
+url: "https://tcd.coconet.de/view/c10189/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10316",
+url: "https://tcd.coconet.de/view/c10316/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10656",
+url: "https://tcd.coconet.de/view/c10656/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10723",
+url: "https://tcd.coconet.de/view/c10723/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10727",
+url: "https://tcd.coconet.de/view/c10727/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10831",
+url: "https://tcd.coconet.de/view/c10831/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c10888",
+url: "https://tcd.coconet.de/view/c10888/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c11016",
+url: "https://tcd.coconet.de/view/c11016/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c11102",
+url: "https://tcd.coconet.de/view/c11102/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c11624",
+url: "https://tcd.coconet.de/view/c11624/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c11819",
+url: "https://tcd.coconet.de/view/c11819/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c11899",
+url: "https://tcd.coconet.de/view/c11899/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c11947",
+url: "https://tcd.coconet.de/view/c11947/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12116",
+url: "https://tcd.coconet.de/view/c12116/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12189",
+url: "https://tcd.coconet.de/view/c12189/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12235",
+url: "https://tcd.coconet.de/view/c12235/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12311",
+url: "https://tcd.coconet.de/view/c12311/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12350",
+url: "https://tcd.coconet.de/view/c12350/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12394",
+url: "https://tcd.coconet.de/view/c12394/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12443",
+url: "https://tcd.coconet.de/view/c12443/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12484",
+url: "https://tcd.coconet.de/view/c12484/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12499",
+url: "https://tcd.coconet.de/view/c12499/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12506",
+url: "https://tcd.coconet.de/view/c12506/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12523",
+url: "https://tcd.coconet.de/view/c12523/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12541",
+url: "https://tcd.coconet.de/view/c12541/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12551",
+url: "https://tcd.coconet.de/view/c12551/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12559",
+url: "https://tcd.coconet.de/view/c12559/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c12562",
+url: "https://tcd.coconet.de/view/c12562/"
+},
+{
+_class: "hudson.model.ListView",
+name: "c20001",
+url: "https://tcd.coconet.de/view/c20001/"
+},
+{
+_class: "hudson.plugins.nested_view.NestedView",
+name: "customer views",
+url: "https://tcd.coconet.de/view/customer%20views/"
+},
+{
+_class: "hudson.plugins.nested_view.NestedView",
+name: "database views",
+url: "https://tcd.coconet.de/view/database%20views/"
+},
+{
+_class: "hudson.model.ListView",
+name: "destroyment",
+url: "https://tcd.coconet.de/view/destroyment/"
+},
+{
+_class: "hudson.model.ListView",
+name: "external",
+url: "https://tcd.coconet.de/view/external/"
+},
+{
+_class: "hudson.plugins.sectioned_view.SectionedView",
+name: "fip",
+url: "https://tcd.coconet.de/view/fip/"
+},
+{
+_class: "hudson.plugins.sectioned_view.SectionedView",
+name: "fip-customers",
+url: "https://tcd.coconet.de/view/fip-customers/"
+},
+{
+_class: "hudson.model.ListView",
+name: "fip-lbbw",
+url: "https://tcd.coconet.de/view/fip-lbbw/"
+},
+{
+_class: "hudson.plugins.sectioned_view.SectionedView",
+name: "fip-pairs",
+url: "https://tcd.coconet.de/view/fip-pairs/"
+},
+{
+_class: "hudson.model.ListView",
+name: "fip-unicredit",
+url: "https://tcd.coconet.de/view/fip-unicredit/"
+},
+{
+_class: "hudson.model.ListView",
+name: "internal",
+url: "https://tcd.coconet.de/view/internal/"
+},
+{
+_class: "hudson.model.ListView",
+name: "mv-master",
+url: "https://tcd.coconet.de/view/mv-master/"
+}
+]
+}
