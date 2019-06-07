@@ -41,7 +41,7 @@ def parseExecutionLogs(executionLogFiles) {
 
 def main() {
     String currentDir = System.getProperty("user.dir").toString()
-    def executionLogs = [new File("$currentDir/resources/execution-log.xml"), new File("$currentDir/resources/execution-log1.xml"), new File("$currentDir/resources/execution-log2.xml")]
+    def executionLogs = [new File("$currentDir/resources/1_execution-log.xml"), new File("$currentDir/resources/2_execution-log.xml"), new File("$currentDir/resources/3_execution-log.xml"), new File("$currentDir/resources/4_execution-log.xml"), new File("$currentDir/resources/5_execution-log.xml")]
     def executionLogsXML = parseExecutionLogs(executionLogs)
     def processedExecutionLogs = processMultipleExecutionLogs(executionLogsXML)
     def restClient = new RESTClient(singleJobUpdateUrl)

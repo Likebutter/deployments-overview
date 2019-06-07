@@ -57,6 +57,7 @@ export class Deployments extends React.Component {
 
   getJobs() {
     DeploymentsService.getJobs().then((resp) => {
+      console.log(resp)
       this.setState({ jobs: resp })
     })
   }

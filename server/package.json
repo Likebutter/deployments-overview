@@ -8,8 +8,11 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cross-fetch": "^3.0.3",
     "express": "^4.16.4",
-    "mongodb": "^3.2.5"
+    "mongodb": "^3.2.5",
+    "xml2js": "^0.4.19",
+    "xmldoc": "^1.1.2"
   },
   "devDependencies": {
     "concurrently": "^4.0.1"
