@@ -2,19 +2,19 @@ import React from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navigation } from './components/Navigation'
-import { Deployments } from './components/Deployments'
+import { Grafana } from './components/Grafana'
 
-function App() {
+function GrafanaComponent() {
   return (
     <div className="App">
       <header className="App-header">
         <Navigation></Navigation>
       </header>
       <div className="App-container">
-        <Deployments></Deployments>
+        <Grafana></Grafana>
       </div>
     </div>
   )
 }
 
-export default App;
+export default GrafanaComponent;

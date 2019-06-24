@@ -7,20 +7,23 @@ import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css'
 
 const { ToggleList } = ColumnToggle
 const { SearchBar } = Search
+
+var expandedRow
+
 const expandRow = {
   onlyOneExpanding: true,
   renderer: row => (
     <div>
       <ButtonToolbar>
-        <Button variant="outline-warning">Restart appserver</Button>
-        <Button variant="outline-dark">Migrate database</Button>
-        <Button variant="outline-danger">Recreate database</Button>
+        <Button variant="outline-warning" onClick={() => DeploymentsService.restartAppserver(expandedRow.JOB_URL)}>Restart appserver</Button>
+        <Button variant="outline-dark" onClick={() => DeploymentsService.migrateDatabase(expandedRow.JOB_URL)}>Migrate database</Button>
+        <Button variant="outline-danger" onClick={() => DeploymentsService.restartAppserver(expandedRow.JOB_URL)}>Recreate database</Button>
         <Button variant="outline-info">Info</Button>
       </ButtonToolbar>
     </div>
   ),
   onExpand: (row, isExpand, rowIndex, e) => {
-    console.log(e)
+    expandedRow = row
   },
 };
 
@@ -30,6 +33,7 @@ export class Deployments extends React.Component {
     super(props)
     this.state = {
       columns: [
+        {dataField: "color", text: "STATUS", sort: true, formatter: this.imgFormatter},
         {dataField: "JOB_URL", text: "JOB_URL", sort: true, formatter: this.linkFormatter},
         {dataField: "VERSION", text: "VERSION", sort: true},
         {dataField: "DATASET", text: "DATASET", sort: true, hidden: true},
@@ -56,18 +60,17 @@ export class Deployments extends React.Component {
   }
 
   getJobs() {
-    DeploymentsService.getJobs().then((resp) => {
-      console.log(resp)
+    DeploymentsService.getJobs("/jenkins/jobs").then((resp) => {
       this.setState({ jobs: resp })
     })
   }
 
-  onColumnToggle(){
-    console.log("toggled")
-  }
-
   linkFormatter(cell, row) {
     return (<a href={ cell } target="_blank" rel="noopener noreferrer">{ cell }</a>)
+  }
+
+  imgFormatter(cell, row) {
+    return (<img src={ `/img/${cell}.png` } />)
   }
 
   render() {

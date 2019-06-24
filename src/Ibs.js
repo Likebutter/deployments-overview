@@ -2,19 +2,19 @@ import React from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navigation } from './components/Navigation'
-import { Deployments } from './components/Deployments'
+import { Ibs } from './components/Ibs'
 
-function App() {
+function IbsComponent() {
   return (
     <div className="App">
       <header className="App-header">
         <Navigation></Navigation>
       </header>
       <div className="App-container">
-        <Deployments></Deployments>
+        <Ibs></Ibs>
       </div>
     </div>
   )
 }
 
-export default App;
+export default IbsComponent;
